@@ -110,4 +110,9 @@ class BankAccount {
 
 $newCustomer = new BankAccount(31707454,'500');
 
+echo '---------------------------- <br>';
+include 'magic-methods.php';
+echo '<br> ---------------------------- <br>';
+include 'class-inheritance.php';
+
 ?>
