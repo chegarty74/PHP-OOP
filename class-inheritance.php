@@ -19,3 +19,5 @@ class Second extends First {
 $second = new Second;
 echo $second->name . ' is ' . $second->id .' years old. <br>';
 echo $second->saySomething();
+
+//If you put the keyword final in front of a class or method, it means it can't be overwritten by a child class or method.
